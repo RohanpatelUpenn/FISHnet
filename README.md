@@ -1,6 +1,6 @@
 # FISHnet - a graph theory approach for calling chromatin domains in sequential Oligopaints data
 
-![FISHnet_video_twitter](https://github.com/user-attachments/assets/c457635a-eaf1-4c07-a7dd-4d1685f3a3c7)
+![FISHnet_video_twitter](https://github.com/user-attachments/assets/9439d4ee-47f9-4d52-9acf-9387b3b228ef)
 
 
 ## Table of Key Parameters:
