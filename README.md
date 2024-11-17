@@ -18,7 +18,7 @@ When considering the interplay of 'Distances' and 'Plateau Size' keep in mind th
 
 ## Requirments:
 
-We ran FISHnet on Python 3.10.14, but FISHnet is compatable with Python 3.0.0 or higher. The `requirements.txt` file list all Python libraries that your notebooks depend on, and they can be installed using:
+FISHnet is compatable with Python 3.0.0 or higher. The `requirements.txt` file list all Python libraries that FISHnet depends on, and they can be installed using:
 
 ```
 pip install -r requirements.txt
