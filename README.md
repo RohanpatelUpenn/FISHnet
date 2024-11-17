@@ -7,5 +7,8 @@
 
 | Parameter Name  | Discription |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| `Distance Step Size`  | Content Cell  |
+| `Plateau Size`  | Content Cell  |
+| `Smoothing Window`  | Content Cell  |
+| `Merge`  | Content Cell  |
+| `Size Exclusion`  | Content Cell  |
