@@ -7,12 +7,12 @@
 
 | Parameter Name  | Type | Description |
 | ------------- | ------------- |  ------------- |
-| `Input Matrix`| array | Pairwise distance matrix from sequential Oligopaints data |
-| `Distances`  |  list | Distances i.e. [10,20,30,40,...500] that tells FISHnet what thresholds to use. If you want to run FISHnet using only one distance enter a list of one value and keep 'Plateau Size' = 0.|
-| `Plateau Size` | Integer  | The number of adjacent distances required to have the same number of domains for FISHnet to recognize as a stable call. |
-| `Smoothing Window`  | Integer  |  The N by N window used to smooth the pairwise distance matrix.  |
-| `Merge`  |  Float | Merges Domain calls within N bins of eachother.   |
-| `Size Exclusion`  | Integer | Removes domains less than N bins. |
+| `input_matrix`| array | Pairwise distance matrix from sequential Oligopaints data |
+| `distances`  |  list | Distances i.e. [10,20,30,40,...500] that tells FISHnet what thresholds to use. If you want to run FISHnet using only one distance enter a list of one value and keep 'plateau_size' = 0.|
+| `plateau_size` | Integer  | The number of adjacent distances required to have the same number of domains for FISHnet to recognize as a stable call. |
+| `smoothing_window`  | Integer  |  The N by N window used to smooth the pairwise distance matrix.  |
+| `merge`  |  Float | Merges Domain calls within N bins of eachother.   |
+| `size_exclusion`  | Integer | Removes domains less than N bins. |
 
 When considering the interplay of `Distances` and `Plateau Size` keep in mind that having distances that are closely spaced will require a larger plateau size, while having distances that are spaced farther part will require lower a `Plateau size`.
 
