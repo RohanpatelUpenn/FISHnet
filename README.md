@@ -13,7 +13,7 @@
 | `Merge`  |  Float | Merges Domain calls within N bins of eachother.   |
 | `Size Exclusion`  | Integer | Removes domains less than N bins. |
 
-When considering the interplay of 'Distances' and 'Plateau Size' keep in mind that having distances that are closely spaced will require a larger plateau size, while having distances that are spaced farther part will require lower a 'Plateau size'.
+When considering the interplay of `Distances` and `Plateau Size` keep in mind that having distances that are closely spaced will require a larger plateau size, while having distances that are spaced farther part will require lower a `Plateau size`.
 
 
 ## Requirments:
