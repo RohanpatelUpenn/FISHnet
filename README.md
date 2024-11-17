@@ -35,5 +35,10 @@ pip install -r requirements.txt
 
 
 
-## For a jupyter notebook in which you can run FISHnet on HCT116 dataset chr21:34.6-37.1Mb (Bintu, et. al. Science, 2018). Link to dataset: https://github.com/BogdanBintu/ChromatinImaging/tree/master go to tutorials folder! 
+## Tutorial Jupyter Notebook
+
+For a jupyter notebook in which you can run FISHnet on HCT116 dataset chr21:34.6-37.1Mb (Bintu, et. al. Science, 2018). Check out the `Tutorial Folder`
+
+
+ Link to dataset used in the Tutorial: https://github.com/BogdanBintu/ChromatinImaging/tree/master!
 
