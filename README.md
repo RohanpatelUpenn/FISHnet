@@ -14,3 +14,23 @@
 | `Size Exclusion`  | Integer | Removes domains less than N bins. |
 
 When considering the interplay of 'Distances' and 'Plateau Size' keep in mind that having distances that are closely spaced will require a larger plateau size, while having distances that are spaced farther part will require lower a 'Plateau size'.
+
+
+## Requirments:
+
+
+
+
+
+## Example Code Running FISHnet:
+
+
+
+
+## Output of Example:
+
+
+
+
+## For a jupyter notebook in which you can run FISHnet on HCT116 dataset chr21:34.6-37.1Mb (Bintu, et. al. Science, 2018). Link to dataset: https://github.com/BogdanBintu/ChromatinImaging/tree/master go to tutorials folder! 
+
