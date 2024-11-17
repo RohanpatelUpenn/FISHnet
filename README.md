@@ -7,7 +7,7 @@
 
 | Parameter Name  | Discription |
 | ------------- | ------------- |
-| `Distance Step Size`  | Content Cell  |
+| `Distances`  | A list of distances i.e. [10,20,30,40,...500] that tells FISHnet what thresholds to use. If you want to run FISHnet using only one distance enter a list of one value.|
 | `Plateau Size`  | Content Cell  |
 | `Smoothing Window`  | Content Cell  |
 | `Merge`  | Content Cell  |
