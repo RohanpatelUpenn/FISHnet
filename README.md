@@ -5,7 +5,7 @@
 
 ## Table of Key Parameters:
 
-| Parameter Name  | Type | Discription |
+| Parameter Name  | Type | Description |
 | ------------- | ------------- |  ------------- |
 | `Distances`  |  list | Distances i.e. [10,20,30,40,...500] that tells FISHnet what thresholds to use. If you want to run FISHnet using only one distance enter a list of one value and keep 'Plateau Size' = 0.|
 | `Plateau Size` | Integer  | The number of adjacent distances required to have the same number of domains for FISHnet to recognize as a stable call. |
