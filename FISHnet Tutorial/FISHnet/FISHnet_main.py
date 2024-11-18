@@ -93,7 +93,6 @@ def FISHnet_main(input_matrix,distance = [250],plateau_size = 4,window_size = 2,
     
     ########################################################################################################
     
-    #return gammas_to_use, comm_to_have,group_dic
     
     
     #Step 3 Consense Calls from the same Platue Community
@@ -211,7 +210,6 @@ def FISHnet_main(input_matrix,distance = [250],plateau_size = 4,window_size = 2,
                 
     
     ########################################################################################################
-    
     
     
     # Convert Boundaries back to Domains
