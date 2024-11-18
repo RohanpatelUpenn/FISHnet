@@ -6,7 +6,13 @@
 
 FISHnet is graph theory method to detect chromatin domains and boundaries in pairwise distance matrices from sequential Oligopaints data. FISHnet uses various distance thresholds as a resolution parameter to find different chromatin domain structures within pairwise distance matrices. 
 
+## Requirments:
 
+FISHnet is compatable with Python 3.0.0 or higher. The `requirements.txt` file list all Python libraries that FISHnet depends on, and they can be installed using:
+
+```
+pip install -r requirements.txt
+```
 
 
 ## Table of Key Parameters:
@@ -32,13 +38,6 @@ FISHnet outputs two dictionaries that share common keys. The keys correspond to 
 
 The output of FISHnet refers to the bins within the `input_matrix` and does not convert them to genomic coordinates.
 
-## Requirments:
-
-FISHnet is compatable with Python 3.0.0 or higher. The `requirements.txt` file list all Python libraries that FISHnet depends on, and they can be installed using:
-
-```
-pip install -r requirements.txt
-```
 
 
 ## Example Code Running FISHnet:
