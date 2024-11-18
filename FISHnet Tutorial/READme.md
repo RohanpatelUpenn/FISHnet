@@ -5,7 +5,7 @@ The run time for this tutorial is ~5 minutes.
 Within this folder you will find:
 
 
-1) Python scripts that are used to run FISHnet (housed in the folder called `FISHnet`). Scripts include the following:   
+1) Python scripts that are used to run FISHnet (housed in the folder called **FISHnet**). Scripts include the following:   
     - FISHnet_main.py.
     - FISHnet_support_functions.py
     - genlouvain.py
