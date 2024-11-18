@@ -4,7 +4,7 @@
 
 ## What is FISHnet?:
 
-FISHnet is graph theory method based on optimization of network modularity to detect chromatin domains and boundaries in pairwise distance matrices from sequential Oligopaints data. FISHnet uses various distance thresholds as a resolution parameter to find different chromatin domain structures within pairwise distance matrices. 
+FISHnet is graph theory method to detect chromatin domains and boundaries in pairwise distance matrices from sequential Oligopaints data. FISHnet uses various distance thresholds as a resolution parameter to find different chromatin domain structures within pairwise distance matrices. 
 
 
 
