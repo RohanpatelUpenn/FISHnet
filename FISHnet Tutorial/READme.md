@@ -5,16 +5,15 @@ The run time for this tutorial is ~5 minutes.
 Within this folder you will find:
 
 
-1) Supplementary python scripts that are used to run FISHnet (housed in the folder called FISHnet) through the main script entitled:   
-
-- FISHnet_main.py.
-- FISHnet_support_functions.py
-- genlouvain.py
-- construct_nulls.py
-- randmio_und_signed.py
-- calculate_modularity.py
-- get_similarity_consensus.py
-- null_model_und_sign.py
+1) Python scripts that are used to run FISHnet (housed in the folder called `FISHnet`). Scripts include the following:   
+    - FISHnet_main.py.
+    - FISHnet_support_functions.py
+    - genlouvain.py
+    - construct_nulls.py
+    - randmio_und_signed.py
+    - calculate_modularity.py
+    - get_similarity_consensus.py
+    - null_model_und_sign.py
 
 2) The FISHnet_Tutorial_notebook.ipynb in a juypter notebook.
 
