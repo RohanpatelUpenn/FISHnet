@@ -2,6 +2,12 @@
 
 ![FISHnet_video_twitter](https://github.com/user-attachments/assets/e5f2aff0-ad25-4568-83d6-3082c8dc7f60)
 
+## What is FISHnet?:
+
+FISHnet is graph theory method based on optimization of network modularity to detect chromatin domains and boundaries in pairwise distance matrices from sequential Oligopaints data. FISHnet uses various distance thresholds as a resolution parameter to find different chromatin domain structures within pairwise distance matrices. 
+
+
+
 
 ## Table of Key Parameters:
 
@@ -9,12 +15,11 @@
 | ------------- | ------------- |  ------------- |
 | `input_matrix`| array | Pairwise distance matrix from sequential Oligopaints data |
 | `distances`  |  list | Distances i.e. [10,20,30,40,...500] that tells FISHnet what thresholds to use. If you want to run FISHnet using only one distance enter a list of one value and keep 'plateau_size' = 0.|
-| `plateau_size` | Integer  | The number of adjacent distances required to have the same number of domains for FISHnet to recognize as a stable call. |
-| `window_size`  | Integer  |  The N by N window used to smooth the pairwise distance matrix.  |
-| `merge`  |  Float | Merges Domain calls within N bins of eachother.   |
+| `plateau_size` | Integer  | The number of adjacent distances required to have the same number of domains for FISHnet to recognize as a stable call. When considering the interplay of `distances` and `plateau_size` keep in mind that having distances that are closely spaced will require a larger plateau size, while having distances that are spaced farther part will require lower a `plateau_size`.|
+| `window_size`  | Integer  |  The N by N window used to smooth the pairwise distance matrix. We recommend `window_size` = 2 |
+| `merge`  |  Float | Merges Domain calls within N bins of eachother. |
 | `size_exclusion`  | Integer | Removes domains less than N bins. |
 
-When considering the interplay of `distances` and `plateau_size` keep in mind that having distances that are closely spaced will require a larger plateau size, while having distances that are spaced farther part will require lower a `plateau_size`.
 
 ## Output of FISHnet:
 
