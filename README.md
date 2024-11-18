@@ -16,6 +16,12 @@
 
 When considering the interplay of `distances` and `plateau_size` keep in mind that having distances that are closely spaced will require a larger plateau size, while having distances that are spaced farther part will require lower a `plateau_size`.
 
+## Output of FISHnet:
+
+| Output Name  | Type | Description |
+| Domains | dictionary |  ------------- |
+| Distance_scales | dictionary |  ------------- |
+
 
 ## Requirments:
 
