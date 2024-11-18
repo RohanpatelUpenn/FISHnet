@@ -65,7 +65,7 @@ Distance_scale
 {0: [200, 250, 300, 350],
 1: [400, 450, 500, 550, 600, 650]}
 ```
-The distances that are grouped together for the plateau groups found in Domains. 
+The distances that are grouped together for the plateau groups found in `Domains`. 
 
 
 ## Tutorial Jupyter Notebook
