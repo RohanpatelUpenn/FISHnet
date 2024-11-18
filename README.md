@@ -18,7 +18,8 @@ When considering the interplay of `distances` and `plateau_size` keep in mind th
 
 ## Output of FISHnet:
 
-| Output Name  | Type | Description |
+| Parameter Name  | Type | Description |
+| ------------- | ------------- |  ------------- |
 | Domains | dictionary |  ------------- |
 | Distance_scales | dictionary |  ------------- |
 
