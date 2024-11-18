@@ -23,7 +23,7 @@ FISHnet is graph theory method to detect chromatin domains and boundaries in pai
 
 ## Output of FISHnet:
 
-FISHnet outputs two dictionaries that share common keys. The keys correspond to a plateau grouping.
+FISHnet outputs two dictionaries that share common keys. The keys correspond to a plateau grouping, where lower key values correspond to inner domain calls, and higher key values are outer domain calls.
 
 | Output Name  | Type | Description |
 | ------------- | ------------- |  ------------- |
