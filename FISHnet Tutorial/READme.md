@@ -19,3 +19,6 @@ Within this folder you will find:
 2) The FISHnet_Tutorial_notebook.ipynb in a juypter notebook.
 
 3) HCT116_chr21_X.txt which is the Bintu 2018 HCT116 Chr21:34.6-37.1 Mb Dataset used in the tutorial.
+
+
+Make sure you have the proper python packages installed as dictated by requirments.txt before running the tutorial! Have fun and happy domain calling!
