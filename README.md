@@ -70,7 +70,7 @@ The distances that are grouped together for the plateau groups found in `Domains
 
 ## Tutorial Jupyter Notebook
 
-For a jupyter notebook in which you can run FISHnet on HCT116 dataset chr21:34.6-37.1Mb (Bintu, et. al. Science, 2018). Check out the `Tutorial Folder`
+For a jupyter notebook in which you can run FISHnet on HCT116 dataset chr21:34.6-37.1 Mb (Bintu, et. al. Science, 2018). Check out the `Tutorial Folder`
 
 
  Link to dataset used in the Tutorial: https://github.com/BogdanBintu/ChromatinImaging/tree/master!
