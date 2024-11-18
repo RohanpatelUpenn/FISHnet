@@ -8,7 +8,7 @@ FISHnet is graph theory method to detect chromatin domains and boundaries in pai
 
 ## Requirments:
 
-FISHnet is compatable with Python 3.0.0 or higher. The `requirements.txt` file list all Python libraries that FISHnet depends on, and they can be installed using:
+FISHnet is compatable with Python 3.2.0 or higher. The `requirements.txt` file list all Python libraries that FISHnet depends on, and they can be installed using:
 
 ```
 pip install -r requirements.txt
