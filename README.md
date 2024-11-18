@@ -20,9 +20,10 @@ When considering the interplay of `distances` and `plateau_size` keep in mind th
 
 | Parameter Name  | Type | Description |
 | ------------- | ------------- |  ------------- |
-| Domains | dictionary |  ------------- |
-| Distance_scales | dictionary |  ------------- |
+| `Domains` | dictionary |  A dictionary of domain calls where keys correspond to the number of plateaus found, and values correspond to a list of domains stored as tuples. |
+| `Distance_scales` | dictionary |  A dictionary of distances where keys correspond to the plateaus found, and values are a list of distances that were grouped together.|
 
+The output of FISHnet refers to the bins within the `input_matrix` and does not convert them to genomic coordinates.
 
 ## Requirments:
 
@@ -35,12 +36,36 @@ pip install -r requirements.txt
 
 ## Example Code Running FISHnet:
 
+```
+from FISHnet_main import FISHnet_main
 
+Domains,Distance_scale  = FISHnet_main(input_matrix=Pairwise_distance,
+                          distance= [100,150,200,250,300,350,400,450,500,550,600,650], # distances in nanometers in this example
+                          plateau_size=4,
+                          window_size=2,
+                          size_exclusion=3,
+                          merge=3)
+```
 
 
 ## Output of Example:
 
+```
+Domains
 
+{0: [(0, 4.0),(4.0, 26.0),(26.0, 48.5),(48.5, 65.5),(65.5, 78.5),(78.5, 83)],
+ 1: [(0, 48.5), (48.5, 65.5), (65.5, 78.5), (78.5, 83)]}
+```
+
+In this example two plateau groups were found with the distances used. The domains are stored as a list of tuples indicatig the start and end boundary per each plateau grouping.
+
+```
+Distance_scale
+
+{0: [200, 250, 300, 350],
+1: [400, 450, 500, 550, 600, 650]}
+```
+The distances that are grouped together for the plateau groups found in Domains. 
 
 
 ## Tutorial Jupyter Notebook
