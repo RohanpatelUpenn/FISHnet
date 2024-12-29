@@ -63,7 +63,7 @@ Domains
  1: [(0, 48.5), (48.5, 65.5), (65.5, 78.5), (78.5, 83)]}
 ```
 
-In this example two plateau groups were found with the distances used. The domains are stored as a list of tuples indicatig the start and end boundary per each plateau grouping.
+In this example two plateau groups were found with the distances used. The domains are stored as a list of tuples indicating the start and end boundary per each plateau grouping.
 
 ```
 Distance_scale
