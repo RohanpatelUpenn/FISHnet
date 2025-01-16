@@ -110,7 +110,7 @@ def FISHnet_main(input_matrix,distance = [250],plateau_size = 4,window_size = 2,
 
         for thresh in group_dic[item]:
             #print(thresh)
-            other = Modularity_maximization(input_matrix,threshold=thresh)
+            other = Modularity_maximization(input_matrix,threshold=thresh,window_size = window_size)
             consensuss[counter,:] = other
             counter+=1
         
